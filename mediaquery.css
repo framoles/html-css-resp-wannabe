@@ -1,0 +1,44 @@
+@media screen and (max-width: 420px){
+    img{
+        width: 30%;
+        height: 30%;
+    }
+
+    #lezioni .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        background-color: #faf7ea;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+        width: 100%;
+    }
+
+    #steps .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        background-color: #eefffc;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right{
+        width: 100%;
+    }
+
+    #why .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        background-color: #faf7ea   ;
+    }
+    #why .row>.left,
+    #why .row>.central,
+    #why .row>.right{
+        width: 100%;
+    }
+}
